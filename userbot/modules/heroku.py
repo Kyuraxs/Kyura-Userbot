@@ -190,7 +190,7 @@ async def dyno_usage(dyno):
         await xx.edit(
             "✥ **Informasi Dyno Heroku :**"
             "\n╔════════════════════╗\n"
-            f" ➠ **Penggunaan Dyno** `{app.name}` :\n"
+            f" ➠ **Penggunaan Dyno** `{owner}` :\n"
             f"     •  `{AppHours}`**Jam**  `{AppMinutes}`**Menit**  "
             f"**|**  [`{AppPercentage}`**%**]"
             "\n◖════════════════════◗\n"
@@ -214,9 +214,10 @@ async def fake_dyno(event):
         f"**|**  [`0`**%**]"
         "\n◖════════════════════◗\n"
         " ➠ **Sisa kuota dyno bulan ini** :\n"
-        f"     •  `1000`**Jam**  `0`**Menit**  "
+        f"     •  `9999`**Jam**  `0`**Menit**  "
         f"**|**  [`100`**%**]"
         "\n╚════════════════════╝\n"
+        f"✥ **Sisa Dyno Heroku** `{day}` **Hari Lagi**"
     )
 
 
