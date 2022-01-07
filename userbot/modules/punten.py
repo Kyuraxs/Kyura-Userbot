@@ -5,13 +5,13 @@ from userbot import CMD_HELP, bot
 from userbot.events import man_cmd
 
 
-@bot.on(man_cmd(outgoing=True, pattern=r"sadboy(?: |$)(.*)"))
+@bot.on(man_cmd(outgoing=True, pattern=r"kyura(?: |$)(.*)"))
 async def _(event):
-    await event.edit("`Pertama-tama kamu cantik`")
+    await event.edit("`Hai Perkenalkan Aku Kyura`")
     sleep(2)
-    await event.edit("`Kedua kamu manis`")
+    await event.edit("`Umur 18 Tahun`")
     sleep(1)
-    await event.edit("`Dan yang terakhir adalah kamu bukan jodohku`")
+    await event.edit("`Tinggal Di Jakarta Salken Ngentoott`")
 
 
 # Create by myself @localheart
