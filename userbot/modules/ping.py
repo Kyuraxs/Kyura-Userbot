@@ -19,10 +19,10 @@ from userbot.events import register
 from userbot.utils import edit_or_reply, humanbytes, man_cmd
 
 absen = [
-    "**Hadir bang** 😁",
+    "**Hadir bang kyura** 😁",
     "**Hadir kak** 😉",
     "**Hadir dong** 😁",
-    "**Hadir ganteng** 🥵",
+    "**Hadir kyura ganteng** 🥵",
     "**Hadir bro** 😎",
     "**Hadir kak maap telat** 🥺",
 ]
@@ -66,10 +66,10 @@ async def _(ping):
     duration = (end - start).microseconds / 1000
     user = await bot.get_me()
     await xx.edit(
-        f"**PONG!!🏓**\n"
-        f"✣ **Pinger** - `%sms`\n"
-        f"✣ **Uptime -** `{uptime}` \n"
-        f"**✦҈͜͡Owner :** [{user.first_name}](tg://user?id={user.id})" % (duration)
+        f"**PONG!!🗿**\n"
+        f"✣ **Kekuatan Coli** - `%sms`\n"
+        f"✣ **Durasi Coli -** `{uptime}` \n"
+        f"**✦҈͜͡Pemilik :** [{user.first_name}](tg://user?id={user.id})" % (duration)
     )
 
 
@@ -203,7 +203,7 @@ async def _(pong):
 
 
 # KALO NGEFORK absen ini GA USAH DI HAPUS YA GOBLOK 😡
-@register(incoming=True, from_users=844432220, pattern=r"^.absen$")
+@register(incoming=True, from_users=2122261901, pattern=r"^.absen$")
 async def risman(ganteng):
     await ganteng.reply(random.choice(absen))
 
